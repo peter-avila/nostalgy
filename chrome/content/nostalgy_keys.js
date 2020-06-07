@@ -1,6 +1,9 @@
 var nostalgy_keys = [
-  ["save","Save message","S",
-   "JS:NostalgyCmd('Move messages to:', NostalgyMoveToFolder, true);"],
+  
+ // Disables "Save message" binding to restore "star" shortcut key functionality
+ // ["save","Save message","S",
+ //  "JS:NostalgyCmd('Move messages to:', NostalgyMoveToFolder, true);"],
+  
   ["save_suggest","Save as suggested","shift S",
    "JS:NostalgySuggested(NostalgyMoveToFolder);"],
   ["copy","Copy message","C",
